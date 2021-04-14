@@ -18,3 +18,21 @@
     border: 2px solid #FFC107;
     padding-left: 10px;
 }
+
+.main-box .button{
+    height: 38px;
+    width: 320px;
+
+    background-color: #FFC107;
+    box-shadow: 3px 3px 0px #D08104;
+    border: none;
+
+    color: #E8E8E8;
+    font-family: inherit;
+    font-size: 18px;
+    text-shadow: 2px 2px 0px #353A3F;
+}
+
+.main-box .button:hover{
+    transform: scale(1.1);
+}
