@@ -1,0 +1,20 @@
+.main-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    justify-content: flex-end;
+}
+
+.main-box .description{
+    color: #FFC107;
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.main-box .input{
+    box-sizing: border-box;
+    height: 38px;
+    width: 320px;
+    border: 2px solid #FFC107;
+    padding-left: 10px;
+}
