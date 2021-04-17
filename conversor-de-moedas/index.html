@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
         rel="stylesheet">
@@ -24,30 +25,32 @@
         <p class="main-description">Insira um valor em uma das caixas e clique em converter.</p>
         <section>
             <div class="main-box">
-                <label class="description" for="">Real</label>
-                <input class="input" type="text" placeholder="R$ 00,00">
+                <label class="description" for="real">Real</label>
+                <input id="real" class="input" type="text" placeholder="R$ 00,00">
             </div>
             <div class="main-box">
-                <label class="description" for="">Dolar</label>
-                <input class="input" type="text" placeholder="US$ 00,00">
+                <label class="description" for="dolar">Dolar</label>
+                <input id="dolar" class="input" type="text" placeholder="US$ 00,00">
             </div>
             <div class="main-box">
-                <label class="description" for="">Euro</label>
-                <input class="input" type="text" placeholder="EUR 00,00">
+                <label class="description" for="euro">Euro</label>
+                <input id="euro" class="input" type="text" placeholder="EUR 00,00">
             </div>
             <div class="main-box">
-                <label class="description" for="">Libras</label>
-                <input class="input" type="text" placeholder="GBP 00,00">
+                <label class="description" for="libras">Libras</label>
+                <input id="libras" class="input" type="text" placeholder="GBP 00,00">
             </div>
             <div class="main-box">
-                <label class="description" for="">Bitcoin</label>
-                <input class="input" type="text" placeholder="XBT 00,00">
+                <label class="description" for="bitcoin">Bitcoin</label>
+                <input id="bitcoin" class="input" type="text" placeholder="XBT 00,00">
             </div>
             <div class="main-box">
-                <button class="button">Converter</button>
+                <button onclick="clearInput()" class="button -clear">Limpar</button>
+                <button onclick="converte()" class="button">Converter</button>
             </div>
         </section>
     </div>
+    <script src="./scripts/coinValue.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
 

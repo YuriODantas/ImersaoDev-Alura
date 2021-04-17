@@ -21,7 +21,8 @@
 
 .main-box .button{
     height: 38px;
-    width: 320px;
+    width: 155px;
+    margin-left: 10px;
 
     background-color: #FFC107;
     box-shadow: 3px 3px 0px #D08104;
@@ -29,8 +30,14 @@
 
     color: #E8E8E8;
     font-family: inherit;
-    font-size: 18px;
+    font-size: 14px;
     text-shadow: 2px 2px 0px #353A3F;
+    cursor: pointer;
+}
+
+.main-box .button.-clear{
+    background-color: #1c64a8;
+    box-shadow: 3px 3px 0px #1c1e20;
 }
 
 .main-box .button:hover{
