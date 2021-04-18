@@ -1,0 +1,36 @@
+.main-button{
+    width: 80px;
+    height: 80px;
+
+    margin-right: 9px;
+    margin-bottom: 20px;
+
+    background-color: #2E86DE;
+
+    font-family: inherit;
+    font-size: 48px;
+    color: #E8E8E8;
+    box-shadow: 4px 4px 0px #E8E8E8;
+    border: none;
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+}
+
+.main-button:hover{
+    transform: scale(1.1);
+}
+
+.main-button.-second{
+    height: 230px;
+    margin-left: 16px;
+}
+
+.main-button.-third{
+    width: 185px;
+}
+
+.main-button.-white{
+    background-color: #E8E8E8;
+    color: #353A3F;
+    box-shadow: 4px 4px 0px #2E86DE;
+}

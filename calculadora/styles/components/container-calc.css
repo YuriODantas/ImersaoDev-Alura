@@ -1,5 +1,5 @@
 .container-calc{
-    max-width: 400px;
+    max-width: 405px;
     padding-top: 40px;
 }
 
@@ -19,4 +19,8 @@
     font-size: 24px;
     color: #353A3F;
     text-align: right;
+}
+
+.container-calc .wrapper{
+    display: flex;
 }
