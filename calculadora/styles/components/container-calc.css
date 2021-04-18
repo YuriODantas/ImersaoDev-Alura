@@ -1,0 +1,22 @@
+.container-calc{
+    max-width: 400px;
+    padding-top: 40px;
+}
+
+.container-calc .input{
+    box-sizing: border-box;
+    width: 400px;
+    height: 80px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+
+    background-color: #E8E8E8;
+    border: 5px solid #2E86DE;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 24px;
+    color: #353A3F;
+    text-align: right;
+}
