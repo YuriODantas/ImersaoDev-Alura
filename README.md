@@ -1,2 +1,2 @@
 # ImersaoDev-Alura
-Duas semanas de sulas intensivas de JavaScript feita pela Alura
+Duas semanas de aulas intensivas de JavaScript feita pela Alura
