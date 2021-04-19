@@ -25,28 +25,28 @@
         <img src="./images/imersao-dev.png" alt="Logo da ImersãoDev da Alura">
 
         <section class="container-calc">
-            <input class="input" type="text">
+            <input class="input" type="text" disabled>
 
             <div class="wrapper">
                 <div>
-                    <button id="btn-div" class="main-button" onclick="calcMath('/')">/</button>
-                    <button id="btn-mult" class="main-button" onclick="calcMath('*')">*</button>
-                    <button id="btn-sub" class="main-button" onclick="calcMath('-')">-</button>
-                    <button id="btn-7" class="main-button -white" onclick="calcMath(7)">7</button>
-                    <button id="btn-8" class="main-button -white" onclick="calcMath(8)">8</button>
-                    <button id="btn-9" class="main-button -white" onclick="calcMath(9)">9</button>
-                    <button id="btn-4" class="main-button -white" onclick="calcMath(4)">4</button>
-                    <button id="btn-5" class="main-button -white" onclick="calcMath(5)">5</button>
-                    <button id="btn-6" class="main-button -white" onclick="calcMath(6)">6</button>
-                    <button id="btn-1" class="main-button -white" onclick="calcMath(1)">1</button>
-                    <button id="btn-2" class="main-button -white" onclick="calcMath(2)">2</button>
-                    <button id="btn-3" class="main-button -white" onclick="calcMath(3)">3</button>
-                    <button id="btn-0" class="main-button -white" onclick="calcMath(0)">0</button>
-                    <button id="btn-com" class="main-button" onclick="calcMath('.')">,</button>
+                    <button id="btn-div" class="main-button" onclick="addParameter('/')">/</button>
+                    <button id="btn-mult" class="main-button" onclick="addParameter('*')">*</button>
+                    <button id="btn-sub" class="main-button" onclick="addParameter('-')">-</button>
+                    <button id="btn-7" class="main-button -white" onclick="addParameter(7)">7</button>
+                    <button id="btn-8" class="main-button -white" onclick="addParameter(8)">8</button>
+                    <button id="btn-9" class="main-button -white" onclick="addParameter(9)">9</button>
+                    <button id="btn-4" class="main-button -white" onclick="addParameter(4)">4</button>
+                    <button id="btn-5" class="main-button -white" onclick="addParameter(5)">5</button>
+                    <button id="btn-6" class="main-button -white" onclick="addParameter(6)">6</button>
+                    <button id="btn-1" class="main-button -white" onclick="addParameter(1)">1</button>
+                    <button id="btn-2" class="main-button -white" onclick="addParameter(2)">2</button>
+                    <button id="btn-3" class="main-button -white" onclick="addParameter(3)">3</button>
+                    <button id="btn-0" class="main-button -white" onclick="addParameter(0)">0</button>
+                    <button id="btn-com" class="main-button" onclick="addParameter('.')">,</button>
                     <button id="btn-com" class="main-button -clear" onclick="cc()">C</button>
                 </div>
                 <div>
-                    <button id="btn-add" class="main-button -second" onclick="calcMath('+')">+</button>
+                    <button id="btn-add" class="main-button -second" onclick="addParameter('+')">+</button>
                     <button id="btn-equal" class="main-button -second" onclick="result()">=</button>
                 </div>
                 
