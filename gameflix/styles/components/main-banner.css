@@ -3,4 +3,10 @@
     border: 2px solid #F25A70;
     box-shadow: 5px 5px 0px #000;
     margin-right: 30px;
+    margin-bottom: 30px;
+    transition: transform 100ms cubic-bezier(.47,.07,.63,2.16);
+}
+
+.main-banner:hover{
+    transform: scale(1.08);
 }
