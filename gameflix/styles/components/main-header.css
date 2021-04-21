@@ -1,0 +1,11 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main-header .logo{
+    padding: 0px 20px;
+}
