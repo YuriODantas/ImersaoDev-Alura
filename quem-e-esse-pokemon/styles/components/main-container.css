@@ -12,3 +12,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.main-container .music{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    cursor: pointer;
+}
