@@ -1,0 +1,21 @@
+.main-button{
+    width: 420px;
+    height: 55px;
+
+    margin-top: 40px;
+
+    background-color: #7C5E99;
+    box-shadow: 4px 4px 0px #000;
+    border: none;
+
+    font-family: 'Press Start 2P', monospace;
+    font-size: 20px;
+    color: #E8E8E8;
+
+    cursor: pointer;
+    transition: transform 100ms cubic-bezier(.47,.07,.63,2.16);
+}
+
+.main-button:hover{
+    transform: scale(1.08);
+}
