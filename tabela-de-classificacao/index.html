@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./styles/components/main-header.css">
     <link rel="stylesheet" href="./styles/components/main-input.css">
     <link rel="stylesheet" href="./styles/components/main-title.css">
+    <link rel="stylesheet" href="./styles/components/wrapper-section.css">
     <title>Projeto 5 - Tabela de Classificação</title>
 </head>
 
@@ -28,11 +29,16 @@
 
         <h1 class="main-title">Tabela de Classificação</h1>
 
-        <input type="text" class="main-input -first" placeholder="Nome do jogador(a)">
-        <button class="main-button -first">Adicionar</button>
-
-        <input type="text" class="main-input -second" placeholder="Definição de pontos">
-        <button class="main-button -second">Definir</button>
+        <section class="wrapper-section">
+            <div class="wrapper">
+                <input type="text" class="main-input -first" placeholder="Nome do jogador(a)">
+                <button class="main-button -first">Adicionar</button>
+            </div>
+            <div class="wrapper">
+                <input type="text" class="main-input -second" placeholder="Definição de pontos">
+                <button class="main-button -second">Definir</button>
+            </div>
+        </section>
     </div>
 
     <script src="./scripts/script.js"></script>

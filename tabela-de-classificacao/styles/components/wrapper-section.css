@@ -1,0 +1,12 @@
+.wrapper-section{
+    width: 1056px;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 40px 0px;
+}
+
+.wrapper-section .wrapper{
+    display: flex;
+    align-items: center;
+}
