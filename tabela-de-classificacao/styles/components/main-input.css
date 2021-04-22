@@ -1,0 +1,23 @@
+.main-input{
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #e8e8e8;
+    border: 3px solid #000;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+
+    font-family: 'Press Start 2P', monospace;
+    color: #353A3F;
+    text-align: center;
+}
+
+.main-input.-first{
+    box-shadow: 4px 4px 0px #05C46B;
+}
+
+.main-input.-second{
+    box-shadow: 4px 4px 0px #7C5E99;
+}
