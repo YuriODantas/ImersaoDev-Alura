@@ -1,4 +1,4 @@
-body, section, footer, div, button, h1, p{
+body, section, footer, div, button, h1, p, tr, th, td{
     margin: 0;
     padding: 0;
 } 

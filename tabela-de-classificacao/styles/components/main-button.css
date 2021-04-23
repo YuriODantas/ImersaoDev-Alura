@@ -24,3 +24,24 @@
 .main-button.-second{
     background-color: #7C5E99;
 }
+
+.main-button.-third{
+    width: 100%;
+    height: 40px;
+    font-size: 9px;
+    color: #353A3F;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.main-button.-third.-win{
+    background-color: #05C46B;
+}
+
+.main-button.-third.-draw{
+    background-color: #FFC107;
+}
+
+.main-button.-third.-lose{
+    background-color: #F25A70;
+}
