@@ -33,12 +33,12 @@
 
         <section class="wrapper-section">
             <div class="wrapper">
-                <input type="text" class="main-input -first" placeholder="Nome do jogador(a)">
-                <button class="main-button -first">Adicionar</button>
+                <input id="player" type="text" class="main-input -first" placeholder="Nome do jogador(a)">
+                <button onclick="addNewPlayer()" class="main-button -first">Adicionar</button>
             </div>
             <div class="wrapper">
-                <input type="text" class="main-input -second" placeholder="Definição de pontos">
-                <button class="main-button -second">Definir</button>
+                <input id="points" type="text" class="main-input -second" placeholder="Definição de pontos">
+                <button onclick="changePoints()" class="main-button -second">Definir</button>
             </div>
         </section>
         <table class="main-table">
@@ -53,18 +53,7 @@
                 </tr>
             </thead>
             <tbody id="table-players">
-                <tr class="table-item">
-                    <td class="table-item">Yuri</td>
-                    <td class="table-item">0</td>
-                    <td class="table-item">0</td>
-                    <td class="table-item">0</td>
-                    <td class="table-item">0</td>
-                    <td class="table-item -wrapper">
-                        <button class="main-button -third -win">Win</button>
-                        <button class="main-button -third -draw">Draw</button>
-                        <button class="main-button -third -lose">Lose</button>
-                    </td>
-                </tr>
+              
             </tbody>
         </table>
         <footer class="main-footer">
