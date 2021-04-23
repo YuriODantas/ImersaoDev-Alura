@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./styles/components/main-container.css">
     <link rel="stylesheet" href="./styles/components/main-header.css">
     <link rel="stylesheet" href="./styles/components/main-input.css">
+    <link rel="stylesheet" href="./styles/components/main-table.css">
     <link rel="stylesheet" href="./styles/components/main-title.css">
     <link rel="stylesheet" href="./styles/components/wrapper-section.css">
     <title>Projeto 5 - Tabela de Classificação</title>
@@ -39,6 +40,32 @@
                 <button class="main-button -second">Definir</button>
             </div>
         </section>
+        <table class="main-table">
+            <thead>
+                <tr class="table-item">
+                    <th class="table-item">Nome</th>
+                    <th class="table-item">Vitórias</th>
+                    <th class="table-item">Empates</th>
+                    <th class="table-item">Derrotas</th>
+                    <th class="table-item">Pontos</th>
+                    <th class="table-item">Ações</th>
+                </tr>
+            </thead>
+            <tbody id="table-players">
+                <tr class="table-item">
+                    <td class="table-item">Yuri</td>
+                    <td class="table-item">0</td>
+                    <td class="table-item">0</td>
+                    <td class="table-item">0</td>
+                    <td class="table-item">0</td>
+                    <td class="table-item">
+                        <button>Win</button>
+                        <button>Draw</button>
+                        <button>Lose</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <script src="./scripts/script.js"></script>
