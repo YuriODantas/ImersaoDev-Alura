@@ -1,0 +1,22 @@
+.main-button{
+    width: 550px;
+    height: 50px;
+
+    background-color:#EF492F;
+
+    border: 1px solid #000;
+    border-radius: 0;
+    box-shadow: 4px 4px 0px #000;
+
+    font-size: 18px;
+    font-family: inherit;
+    color: inherit;
+    text-shadow: 2px 2px 0px #000;
+
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+}
+
+.main-button:hover{
+    transform: scale(1.05);
+}
