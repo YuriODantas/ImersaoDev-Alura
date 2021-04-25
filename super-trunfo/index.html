@@ -31,8 +31,8 @@
 
         <img src="./images/logo-yu-gi-oh.png" alt="Logo do Yu-gi-oh" class="main-logo">
 
-        <section class="main-game">
-            <button class="main-button">Puxar carta do deck: 24</button>
+        <section id="main-game" class="main-game">
+            <button id="draw-button" class="main-button" onclick="randomCard()">Puxar carta do deck: 24</button>
             <div class="wrapper-section">
                 <div class="-players">
                     <p class="title">Yugi:0</p>
@@ -41,8 +41,8 @@
                 <div class="-card">
                     <img class="main-card" src="./images/cards/card-back.jpg" alt="Carta virada para baixo do Yugi">
                     <div>
-                        <button class="main-button -second">⚔ ATK</button>
-                        <button class="main-button -second">🛡 DEF</button>
+                        <button id="attack-button" class="main-button -second" onclick="attack()" disabled=true>⚔ ATK</button>
+                        <button id="defense-button" class="main-button -second" onclick="defense()" disabled=true>🛡 DEF</button>
                     </div>
                 </div>
                 <div>
@@ -58,11 +58,11 @@
 
     <div id="modal-game" class="modal-container">
         <section id="modal" class="modal">
-            <p>You Lose <br>❌</p>
-            <button onclick='reiniciar()' id='btnReiniciar' class="main-button">Próxima Rodada</button>
         </section>
     </div>
 
+    <script src="./scripts/cards.js"></script>
+    <script src="./scripts/game.js"></script>
 </body>
 
 </html>

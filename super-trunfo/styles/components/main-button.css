@@ -21,6 +21,12 @@
     transform: scale(1.05);
 }
 
+.main-button:disabled{
+    background-color: #7273759d;
+    transform: none;
+    cursor: auto;
+}
+
 .main-button.-second{
     width: 125px;
     margin-top: 15px;

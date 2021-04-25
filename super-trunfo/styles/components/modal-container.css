@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.modal-container.mostrar{
+.modal-container.show{
     display: flex;
 }
 
@@ -35,6 +35,6 @@
     }
 }
 
-.mostrar .modal{
+.show .modal{
     animation: modal .3s;
 }
