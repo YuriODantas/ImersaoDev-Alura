@@ -3,6 +3,7 @@
     align-items: center;
     width: 810px;
     transform: translate(-6%, -46%);
+    margin-bottom: -148px;
 }
 
 .main-profile .photo{
@@ -17,4 +18,15 @@
     font-size: 25px;
     color: #e8e8e8;
     margin-bottom: 10px;
+}
+
+.main-profile .social-networks{
+    margin-right: 10px;
+
+    box-shadow: 2px 2px 0px #7C5E99;
+    transition: transform 100ms ease-in-out;
+}
+
+.main-profile .social-networks:hover{
+    transform: scale(1.06);
 }
