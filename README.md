@@ -6,9 +6,9 @@ Foram 10 dias de aulas intensivas gratuitas de JavaScript feita pela Alura Curso
 
 ## Quem foram os professores?
 
-![Rafaella Ballerini](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/.github/Rafa.jpg)
-![Guilherme Lima](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/.github/gui.jpg)
-![Paulo Silveira](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/.github/paulo.jpg)
+[![Rafaella Ballerini](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/.github/Rafa.jpg)](https://www.linkedin.com/in/rafaella-ballerini-45875016a/)
+[![Guilherme Lima](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/.github/gui.jpg)](https://www.linkedin.com/in/guilherme-lima-developer/)
+[![Paulo Silveira](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/.github/paulo.jpg)](https://www.linkedin.com/in/paulosilveira/)
 
 ## Tecnologias que foram usadas
 
