@@ -12,9 +12,12 @@
 
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/components/main-button.css">
+    <link rel="stylesheet" href="./styles/components/main-card.css">
     <link rel="stylesheet" href="./styles/components/main-container.css">
+    <link rel="stylesheet" href="./styles/components/main-game.css">
     <link rel="stylesheet" href="./styles/components/main-header.css">
     <link rel="stylesheet" href="./styles/components/main-logo.css">
+    <link rel="stylesheet" href="./styles/components/wrapper-section.css">
     <title>Projeto 6 - Super Trunfo</title>
 </head>
 
@@ -24,11 +27,31 @@
             <img src="./images/imersao-dev.png" alt="Logo da Imersão Dev" class="logo">
             <img src="./images/logo-alura.png" alt="Logo da Alura Cursos" class="logo">
         </header>
-        
+
         <img src="./images/logo-yu-gi-oh.png" alt="Logo do Yu-gi-oh" class="main-logo">
 
         <section class="main-game">
             <button class="main-button">Puxar carta do deck: 24</button>
+            <div class="wrapper-section">
+                <div class="-players">
+                    <p class="title">Yugi:0</p>
+                    <img src="./images/yugi.png" alt="Personagem Yugi">
+                </div>
+                <div class="-card">
+                    <img class="main-card" src="./images/cards/card-back.jpg" alt="Carta virada para baixo do Yugi">
+                    <div>
+                        <button class="main-button -second">⚔ ATK</button>
+                        <button class="main-button -second">🛡 DEF</button>
+                    </div>
+                </div>
+                <div>
+                    <img class="main-card" src="./images/cards/card-back.jpg" alt="Carta virada para baixo do Kaiba">
+                </div>
+                <div class="-players">
+                    <p class="title">Kaiba:0</p>
+                    <img src="./images/kaiba.png" alt="Personagem Kaiba">
+                </div>
+            </div>
         </section>
     </div>
 </body>
