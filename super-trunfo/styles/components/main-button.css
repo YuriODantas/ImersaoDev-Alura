@@ -20,3 +20,8 @@
 .main-button:hover{
     transform: scale(1.05);
 }
+
+.main-button.-second{
+    width: 125px;
+    margin-top: 15px;
+}
