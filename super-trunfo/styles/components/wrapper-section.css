@@ -1,0 +1,25 @@
+.wrapper-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.wrapper-section .-players{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.wrapper-section .-players .title{
+    margin-bottom: 18px;
+    font-size: 24px;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.wrapper-section .-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
