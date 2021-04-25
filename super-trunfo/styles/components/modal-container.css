@@ -1,0 +1,40 @@
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.mostrar{
+    display: flex;
+}
+
+.modal{
+    color: #e8e8e8;
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 70px;
+}
+
+@keyframes modal{
+    from{
+        opacity: 0;
+        transform: translate3d(0, 60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .modal{
+    animation: modal .3s;
+}
