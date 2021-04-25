@@ -1,0 +1,9 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(39, 174, 96, 0.8);
+    width: 700px;
+    height: 677px;
+}
