@@ -1,4 +1,4 @@
-# ![ImersaoDev-Alura](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/.github/logo-imersao-dev.svg) ![Alura](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/certifcard/images/logo-alura.png)
+# [![ImersaoDev-Alura](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/.github/logo-imersao-dev.svg) ![Alura](https://github.com/YuriODantas/ImersaoDev-Alura/blob/main/certifcard/images/logo-alura.png)](https://www.alura.com.br/)
 
 ## O que foi a ImersãoDev?
 
