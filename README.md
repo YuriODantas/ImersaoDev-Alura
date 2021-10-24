@@ -23,3 +23,7 @@ Para desenvolver os projetos, os professores optaram por usar uma plataforma onl
 Você que esta aqui em meu portifólio fique a vontade para estudar meus códigos e modificalos da forma que achar melhor.
 
 Caso queira ver eles em funcionamento sem precisar clonar o projeto ou efetuar o download, [clique aqui para testar](https://yuriodantas.github.io/ImersaoDev-Alura/certifcard/)
+
+## Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
